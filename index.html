@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>نام فروشگاه | فروشگاه اینترنتی شما</title>
+<meta name="description" content="توضیح کوتاه فروشگاه شما برای موتورهای جستجو — این متن رو با معرفی واقعی فروشگاهتون جایگزین کنید.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ========================= هدر (در همه‌ی صفحات تکرار شده) ========================= -->
+<header class="site-header">
+  <div class="container flex-between">
+    <!-- ✏️ ویرایش: به‌جای «نام فروشگاه» اسم واقعی فروشگاهتو بذار. اگه لوگوی تصویری داری، این <a> رو با یک <img> جایگزین کن.
+         این تگ تو ۵ فایل html تکرار شده، پس تو همه‌شون باید عوضش کنی (لیست کامل تو GUIDE.md هست) -->
+    <a href="index.html" class="logo">نام فروشگاه</a>
+
+    <nav class="main-nav" id="mainNav">
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">خانه</a></li>
+        <li><a href="products.html" class="nav-link">محصولات</a></li>
+        <li><a href="contact.html" class="nav-link">تماس با ما</a></li>
+        <li><a href="profile.html" class="nav-link">پروفایل</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a href="cart.html" class="icon-btn" aria-label="سبد خرید">
+        🛒
+        <span class="cart-badge" id="cartBadge">۰</span>
+      </a>
+      <button type="button" class="nav-toggle" id="navToggle" aria-label="باز و بسته کردن منو" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ========================= هیرو ========================= -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-copy">
+        <!-- ✏️ ویرایش: تیتر و توضیح اصلی صفحه اول -->
+        <span class="eyebrow">فروشگاه اینترنتی شما</span>
+        <h1>عنوان اصلی و جذاب فروشگاهتون رو اینجا بنویسید</h1>
+        <p>یک توضیح کوتاه و ترغیب‌کننده درباره‌ی فروشگاهتون بنویسید: چی می‌فروشید، چرا خاصه، و چرا مشتری باید همین الان از شما خرید کنه.</p>
+        <div class="hero-actions">
+          <a href="products.html" class="btn btn-primary">مشاهده محصولات</a>
+          <a href="#categories" class="btn btn-outline">دسته‌بندی‌ها را ببینید</a>
+        </div>
+      </div>
+
+      <!-- ✏️ ویرایش: این سه جعبه رو با عکس‌های واقعی از محصولاتت جایگزین کن -->
+      <div class="hero-tiles">
+        <div class="img-placeholder tile-tall">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          <span>عکس اصلی هیرو — پیشنهاد ۷۰۰×۹۰۰</span>
+        </div>
+        <div class="img-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          <span>عکس ۲ — ۵۰۰×۴۰۰</span>
+        </div>
+        <div class="img-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          <span>عکس ۳ — ۵۰۰×۴۰۰</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= نوار اعتماد ========================= -->
+  <section class="trust-bar">
+    <div class="container">
+      <ul>
+        <li>
+          <span class="trust-icon">🚚</span>
+          <div><strong>ارسال سریع</strong><span>سفارش‌ها ظرف ۲۴ تا ۴۸ ساعت می‌رسه</span></div>
+        </li>
+        <li>
+          <span class="trust-icon">🔒</span>
+          <div><strong>پرداخت امن</strong><span>پرداخت آنلاین با درگاه معتبر</span></div>
+        </li>
+        <li>
+          <span class="trust-icon">↩️</span>
+          <div><strong>ضمانت بازگشت</strong><span>تا ۷ روز امکان مرجوعی هست</span></div>
+        </li>
+        <li>
+          <span class="trust-icon">💬</span>
+          <div><strong>پشتیبانی</strong><span>پاسخگویی سریع در ساعات کاری</span></div>
+        </li>
+      </ul>
+      <!-- ✏️ ویرایش: متن این ۴ مورد رو با مزیت‌های واقعی فروشگاهت عوض کن -->
+    </div>
+  </section>
+
+  <!-- ========================= دسته‌بندی‌ها ========================= -->
+  <section class="section" id="categories">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">مرور بر اساس دسته</span>
+        <h2>دسته‌بندی محصولات</h2>
+        <p>محصولاتتو تو دسته‌های مختلف بچین تا مشتری راحت‌تر چیزی که می‌خواد رو پیدا کنه</p>
+      </div>
+
+      <!-- ✏️ ویرایش: عکس و اسم هر دسته رو با دسته‌بندی واقعی محصولاتت عوض کن -->
+      <div class="grid category-grid">
+        <a href="products.html" class="category-card">
+          <div class="img-placeholder" style="aspect-ratio:4/5;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>عکس دسته ۱ — ۵۰۰×۶۰۰</span>
+          </div>
+          <div class="category-card-label">نام دسته ۱</div>
+        </a>
+        <a href="products.html" class="category-card">
+          <div class="img-placeholder" style="aspect-ratio:4/5;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>عکس دسته ۲ — ۵۰۰×۶۰۰</span>
+          </div>
+          <div class="category-card-label">نام دسته ۲</div>
+        </a>
+        <a href="products.html" class="category-card">
+          <div class="img-placeholder" style="aspect-ratio:4/5;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>عکس دسته ۳ — ۵۰۰×۶۰۰</span>
+          </div>
+          <div class="category-card-label">نام دسته ۳</div>
+        </a>
+        <a href="products.html" class="category-card">
+          <div class="img-placeholder" style="aspect-ratio:4/5;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>عکس دسته ۴ — ۵۰۰×۶۰۰</span>
+          </div>
+          <div class="category-card-label">نام دسته ۴</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= محصولات ویژه ========================= -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head--row">
+        <div>
+          <span class="eyebrow">پرطرفدارها</span>
+          <h2>محصولات ویژه</h2>
+        </div>
+        <a href="products.html" class="btn btn-outline">مشاهده همه محصولات</a>
+      </div>
+
+      <!-- ✏️ ویرایش هر کارت: عکس، نام، دسته، امتیاز و قیمت.
+           دقت کن روی دکمه‌ی گرد «+» صفتِ data-price باید فقط عدد باشه (بدون کاما و بدون «تومان») چون تو محاسبه‌ی سبد خرید استفاده می‌شه.
+           برای اضافه کردن محصول جدید، کل تگ <article class="product-card">...</article> رو کپی/پیست کن. -->
+      <div class="grid product-grid">
+
+        <article class="product-card card-surface">
+          <div class="product-card-media">
+            <span class="badge">جدید</span>
+            <div class="img-placeholder" style="aspect-ratio:1/1;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>عکس محصول ۱ — ۸۰۰×۸۰۰</span>
+            </div>
+          </div>
+          <div class="product-card-body">
+            <span class="product-card-cat">دسته‌بندی نمونه</span>
+            <h3 class="product-card-title">نام محصول ۱</h3>
+            <span class="product-card-rating">★★★★☆ (۲۴)</span>
+            <div class="product-card-footer">
+              <span class="product-card-price">۴۵۰,۰۰۰ تومان</span>
+              <button type="button" class="add-to-cart-btn" data-id="p1" data-name="نام محصول ۱" data-price="450000" aria-label="افزودن به سبد خرید">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card card-surface">
+          <div class="product-card-media">
+            <div class="img-placeholder" style="aspect-ratio:1/1;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>عکس محصول ۲ — ۸۰۰×۸۰۰</span>
+            </div>
+          </div>
+          <div class="product-card-body">
+            <span class="product-card-cat">دسته‌بندی نمونه</span>
+            <h3 class="product-card-title">نام محصول ۲</h3>
+            <span class="product-card-rating">★★★☆☆ (۱۱)</span>
+            <div class="product-card-footer">
+              <span class="product-card-price">۲۸۰,۰۰۰ تومان</span>
+              <button type="button" class="add-to-cart-btn" data-id="p2" data-name="نام محصول ۲" data-price="280000" aria-label="افزودن به سبد خرید">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card card-surface">
+          <div class="product-card-media">
+            <span class="badge">پرفروش</span>
+            <div class="img-placeholder" style="aspect-ratio:1/1;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>عکس محصول ۳ — ۸۰۰×۸۰۰</span>
+            </div>
+          </div>
+          <div class="product-card-body">
+            <span class="product-card-cat">دسته‌بندی نمونه</span>
+            <h3 class="product-card-title">نام محصول ۳</h3>
+            <span class="product-card-rating">★★★★★ (۵۸)</span>
+            <div class="product-card-footer">
+              <span class="product-card-price">۳۲۰,۰۰۰ تومان</span>
+              <button type="button" class="add-to-cart-btn" data-id="p3" data-name="نام محصول ۳" data-price="320000" aria-label="افزودن به سبد خرید">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card card-surface">
+          <div class="product-card-media">
+            <span class="badge badge--saffron">تخفیف</span>
+            <div class="img-placeholder" style="aspect-ratio:1/1;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>عکس محصول ۴ — ۸۰۰×۸۰۰</span>
+            </div>
+          </div>
+          <div class="product-card-body">
+            <span class="product-card-cat">دسته‌بندی نمونه</span>
+            <h3 class="product-card-title">نام محصول ۴</h3>
+            <span class="product-card-rating">★★★★☆ (۹)</span>
+            <div class="product-card-footer">
+              <span class="product-card-price">۱۹۹,۰۰۰ تومان<small>۲۵۰,۰۰۰ تومان</small></span>
+              <button type="button" class="add-to-cart-btn" data-id="p4" data-name="نام محصول ۴" data-price="199000" aria-label="افزودن به سبد خرید">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card card-surface">
+          <div class="product-card-media">
+            <div class="img-placeholder" style="aspect-ratio:1/1;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>عکس محصول ۵ — ۸۰۰×۸۰۰</span>
+            </div>
+          </div>
+          <div class="product-card-body">
+            <span class="product-card-cat">دسته‌بندی نمونه</span>
+            <h3 class="product-card-title">نام محصول ۵</h3>
+            <span class="product-card-rating">★★★★☆ (۳۱)</span>
+            <div class="product-card-footer">
+              <span class="product-card-price">۶۱۰,۰۰۰ تومان</span>
+              <button type="button" class="add-to-cart-btn" data-id="p5" data-name="نام محصول ۵" data-price="610000" aria-label="افزودن به سبد خرید">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card card-surface">
+          <div class="product-card-media">
+            <span class="badge">جدید</span>
+            <div class="img-placeholder" style="aspect-ratio:1/1;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+              <span>عکس محصول ۶ — ۸۰۰×۸۰۰</span>
+            </div>
+          </div>
+          <div class="product-card-body">
+            <span class="product-card-cat">دسته‌بندی نمونه</span>
+            <h3 class="product-card-title">نام محصول ۶</h3>
+            <span class="product-card-rating">★★★☆☆ (۶)</span>
+            <div class="product-card-footer">
+              <span class="product-card-price">۱۴۵,۰۰۰ تومان</span>
+              <button type="button" class="add-to-cart-btn" data-id="p6" data-name="نام محصول ۶" data-price="145000" aria-label="افزودن به سبد خرید">+</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= نظرات مشتری‌ها ========================= -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">نظر مشتری‌ها</span>
+        <h2>چه کسانی از ما راضی‌ان؟</h2>
+      </div>
+
+      <!-- ✏️ ویرایش: این ۳ نظر رو با نظرات واقعی مشتری‌هات جایگزین کن -->
+      <div class="grid testimonial-grid">
+        <div class="testimonial-card card-surface">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote">یک جمله‌ی کوتاه از رضایت مشتری اینجا قرار می‌گیره؛ بعداً می‌تونی نظرات واقعی مشتری‌هاتو جایگزین این متن کنی.</p>
+          <div class="testimonial-person">
+            <div class="img-placeholder img-placeholder--round">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="width:18px;height:18px;"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            </div>
+            <div><strong>نام مشتری ۱</strong><span>خریدار محصول</span></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card card-surface">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote">توضیح کوتاهی درباره‌ی تجربه‌ی خرید و کیفیت محصول از زبان یک مشتری، اینجا جای می‌گیره.</p>
+          <div class="testimonial-person">
+            <div class="img-placeholder img-placeholder--round">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="width:18px;height:18px;"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            </div>
+            <div><strong>نام مشتری ۲</strong><span>خریدار محصول</span></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card card-surface">
+          <div class="testimonial-stars">★★★★☆</div>
+          <p class="testimonial-quote">یک نمونه نظر دیگه، مثلاً درباره‌ی سرعت ارسال یا برخورد پشتیبانی، می‌تونه اینجا قرار بگیره.</p>
+          <div class="testimonial-person">
+            <div class="img-placeholder img-placeholder--round">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="width:18px;height:18px;"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            </div>
+            <div><strong>نام مشتری ۳</strong><span>خریدار محصول</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= خبرنامه ========================= -->
+  <section class="section">
+    <div class="container">
+      <div class="newsletter-cta">
+        <h2>از تخفیف‌ها و محصولات جدید باخبر شو</h2>
+        <p>ایمیلتو وارد کن تا اولین نفری باشی که از پیشنهادهای ویژه‌مون خبردار می‌شه</p>
+        <form onsubmit="return false;">
+          <input type="email" placeholder="ایمیل شما" required aria-label="ایمیل برای عضویت در خبرنامه">
+          <button type="submit" class="btn btn-primary">عضویت در خبرنامه</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ========================= فوتر (در همه‌ی صفحات تکرار شده) ========================= -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <div class="footer-logo">نام فروشگاه</div>
+      <p class="footer-about">یک توضیح کوتاه و جذاب درباره‌ی فروشگاهت بنویس؛ چی می‌فروشی و چرا مشتری باید از تو بخره.</p>
+      <div class="social-links">
+        <a href="#">اینستاگرام</a>
+        <a href="#">تلگرام</a>
+        <a href="#">واتساپ</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>دسترسی سریع</h4>
+      <ul>
+        <li><a href="index.html">خانه</a></li>
+        <li><a href="products.html">محصولات</a></li>
+        <li><a href="contact.html">تماس با ما</a></li>
+        <li><a href="cart.html">سبد خرید</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>راهنما</h4>
+      <ul>
+        <li><a href="#">سوالات متداول</a></li>
+        <li><a href="#">شرایط و قوانین</a></li>
+        <li><a href="#">حریم خصوصی</a></li>
+        <li><a href="#">راهنمای بازگشت کالا</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>اطلاعات تماس</h4>
+      <ul class="footer-contact">
+        <li>📍 آدرس فروشگاه، شهر، خیابان اصلی</li>
+        <li>📞 ۰۲۱-۱۲۳۴۵۶۷۸</li>
+        <li>✉️ info@example.com</li>
+      </ul>
+      <form class="newsletter-form" onsubmit="return false;">
+        <input type="email" placeholder="ایمیل شما" required aria-label="ایمیل برای عضویت در خبرنامه">
+        <button type="submit" class="btn btn-primary btn-sm">عضویت</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© <span id="footerYear"></span> نام فروشگاه — تمامی حقوق محفوظ است.</p>
+  </div>
+</footer>
+
+<button type="button" class="back-to-top" id="backToTop" aria-label="برگشت به بالای صفحه">↑</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>

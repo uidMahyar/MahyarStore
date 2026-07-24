@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تماس با ما | نام فروشگاه</title>
+<meta name="description" content="راه‌های ارتباط با فروشگاه — این متن رو با توضیح واقعی جایگزین کن.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ========================= هدر ========================= -->
+<header class="site-header">
+  <div class="container flex-between">
+    <a href="index.html" class="logo">نام فروشگاه</a>
+    <nav class="main-nav" id="mainNav">
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">خانه</a></li>
+        <li><a href="products.html" class="nav-link">محصولات</a></li>
+        <li><a href="contact.html" class="nav-link">تماس با ما</a></li>
+        <li><a href="profile.html" class="nav-link">پروفایل</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a href="cart.html" class="icon-btn" aria-label="سبد خرید">
+        🛒
+        <span class="cart-badge" id="cartBadge">۰</span>
+      </a>
+      <button type="button" class="nav-toggle" id="navToggle" aria-label="باز و بسته کردن منو" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container" style="padding-top:36px; padding-bottom:64px;">
+    <p class="breadcrumb"><a href="index.html">خانه</a> / <span>تماس با ما</span></p>
+    <h1 class="page-title">تماس با ما</h1>
+
+    <div class="contact-layout">
+
+      <!-- ========================= فرم تماس (فعلاً فقط ظاهری) ========================= -->
+      <div class="contact-form-card card-surface">
+        <h2 style="font-family:var(--font-display); font-weight:400; font-size:1.4rem; margin-bottom:8px;">پیام بفرستید</h2>
+        <p class="muted" style="margin-bottom:22px;">فرم زیر فعلاً فقط ظاهریه و پیام رو جایی ارسال نمی‌کنه؛ برای فعال شدن واقعی باید به یک سرویس ارسال فرم یا بک‌اند وصلش کنی (توضیح کامل تو GUIDE.md).</p>
+
+        <div class="form-success" id="contactSuccess">✅ پیامت با موفقیت ثبت شد، به‌زودی باهات تماس می‌گیریم.</div>
+
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="cf-name">نام و نام خانوادگی</label>
+            <input type="text" id="cf-name" name="name" placeholder="مثلاً: سارا احمدی" required>
+          </div>
+          <div class="form-group">
+            <label for="cf-email">ایمیل</label>
+            <input type="email" id="cf-email" name="email" placeholder="example@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="cf-subject">موضوع</label>
+            <input type="text" id="cf-subject" name="subject" placeholder="مثلاً: سوال درباره‌ی یک سفارش">
+          </div>
+          <div class="form-group">
+            <label for="cf-message">پیام شما</label>
+            <textarea id="cf-message" name="message" placeholder="پیامتو اینجا بنویس..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">ارسال پیام</button>
+        </form>
+      </div>
+
+      <!-- ========================= اطلاعات فروشگاه ========================= -->
+      <div>
+        <div class="contact-info-card card-surface">
+          <h3>راه‌های ارتباطی</h3>
+          <!-- ✏️ ویرایش: این اطلاعات رو با اطلاعات واقعی فروشگاهت عوض کن (همین‌ها تو فوتر هم تکرار شدن) -->
+          <div class="contact-info-row">
+            <span class="icon">📍</span>
+            <div><strong>آدرس</strong><span>آدرس فروشگاه، شهر، خیابان اصلی، پلاک ۰</span></div>
+          </div>
+          <div class="contact-info-row">
+            <span class="icon">📞</span>
+            <div><strong>تلفن</strong><span>۰۲۱-۱۲۳۴۵۶۷۸</span></div>
+          </div>
+          <div class="contact-info-row">
+            <span class="icon">✉️</span>
+            <div><strong>ایمیل</strong><span>info@example.com</span></div>
+          </div>
+          <div class="contact-info-row">
+            <span class="icon">🕒</span>
+            <div><strong>ساعات کاری</strong><span>شنبه تا پنجشنبه، ۹ صبح تا ۶ عصر</span></div>
+          </div>
+
+          <div class="map-placeholder">
+            🗺️ اینجا جای نقشه‌ست — می‌تونی یک نقشه‌ی گوگل مپ (iframe) یا نشان (Neshan) رو جایگزین این جعبه کنی. راهنمای دقیق‌تر تو GUIDE.md هست.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<!-- ========================= فوتر ========================= -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <div class="footer-logo">نام فروشگاه</div>
+      <p class="footer-about">یک توضیح کوتاه و جذاب درباره‌ی فروشگاهت بنویس؛ چی می‌فروشی و چرا مشتری باید از تو بخره.</p>
+      <div class="social-links">
+        <a href="#">اینستاگرام</a>
+        <a href="#">تلگرام</a>
+        <a href="#">واتساپ</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>دسترسی سریع</h4>
+      <ul>
+        <li><a href="index.html">خانه</a></li>
+        <li><a href="products.html">محصولات</a></li>
+        <li><a href="contact.html">تماس با ما</a></li>
+        <li><a href="cart.html">سبد خرید</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>راهنما</h4>
+      <ul>
+        <li><a href="#">سوالات متداول</a></li>
+        <li><a href="#">شرایط و قوانین</a></li>
+        <li><a href="#">حریم خصوصی</a></li>
+        <li><a href="#">راهنمای بازگشت کالا</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>اطلاعات تماس</h4>
+      <ul class="footer-contact">
+        <li>📍 آدرس فروشگاه، شهر، خیابان اصلی</li>
+        <li>📞 ۰۲۱-۱۲۳۴۵۶۷۸</li>
+        <li>✉️ info@example.com</li>
+      </ul>
+      <form class="newsletter-form" onsubmit="return false;">
+        <input type="email" placeholder="ایمیل شما" required aria-label="ایمیل برای عضویت در خبرنامه">
+        <button type="submit" class="btn btn-primary btn-sm">عضویت</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© <span id="footerYear"></span> نام فروشگاه — تمامی حقوق محفوظ است.</p>
+  </div>
+</footer>
+
+<button type="button" class="back-to-top" id="backToTop" aria-label="برگشت به بالای صفحه">↑</button>
+<script src="js/script.js"></script>
+</body>
+</html>
